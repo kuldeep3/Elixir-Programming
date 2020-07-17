@@ -11,6 +11,6 @@ defmodule Maps do
 
     IO.puts("Capital of India is #{capitals2.india}")
 
-    capitals3 = Map.do_stuff(capitals, "New Zealand", "Wellington")
+    capitals3 = Dict.put_new(capitals, "New Zealand", "Wellington")
   end
 end
