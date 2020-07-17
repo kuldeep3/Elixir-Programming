@@ -1,4 +1,4 @@
-defmodule M do
+defmodule S do
   def main do
     do_stuff()
   end
